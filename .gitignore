@@ -1,0 +1,6 @@
+/node_modules
+.vscode
+/secret
+/public/uploads
+/.env
+Git.MD
