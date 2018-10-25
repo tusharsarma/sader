@@ -32,7 +32,7 @@ const container = require('./container');
 container.resolve(function(users, _, admin, home, group, results, privatechat, profile, interest, news) {
 	mongoose.Promise = global.Promise;
 	mongoose.connect(
-		'mongodb://localhost/sader',
+		'mongodb://<sader>:<iamnickhifi3>@ds141623.mlab.com:41623/sader || mongodb://localhost/sader',
 		{ useMongoClient: true },
 		function(err) {
 			if (err) {
