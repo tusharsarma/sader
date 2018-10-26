@@ -116,7 +116,7 @@ module.exports = function(async, Club, _, Users, Message, FriendResult) {
 					const countrySort = _.sortBy(res2, '_id');
 
 					return res.render('home', {
-						title: 'Footballkik - Home',
+						title: 'Sader - Home',
 						user: req.user,
 						chunks: dataChunk,
 						country: countrySort,

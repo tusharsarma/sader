@@ -7,14 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Footballkik</title>
+    <title>Sader</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-
+        <!-- <link rel="manifest" href="./../../manifest.json"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/profile.css">
+    <!-- <script>
+        if (navigator.serviceWorker.controller) {
+      console.log('[PWA Builder] active service worker found, no need to register')
+    } else {
+      //Register the ServiceWorker
+      navigator.serviceWorker.register('./../../pwabuilder-sw.js', {
+        scope: './'
+      }).then(function(reg) {
+        console.log('Service worker has been registered for scope:'+ reg.scope);
+      });
+    }
+    </script> -->
 
 </head>
 
@@ -118,15 +130,15 @@
                                 <% }) %>
 
                                 <div class="" style="margin-top:20px">
-                                    <label style="color:#4aa1f3 !important">Mantra</label>
+                                    <label style="color:#4aa1f3 !important">Status</label>
                                     <br>
                                     <textarea name="mantra" id="mantra" class="form-control input-lg" rows="5" placeholder="A one liner sentence"><%= user.mantra.trim() %></textarea>
                                 </div>
 
-                                <label style="color:#4aa1f3 !important">Club You Support</label>
+                                <label style="color:#4aa1f3 !important">interested Subject</label>
                                 <br>
                                 <select name="club" id="club" class="form-control select">
-                                    <option value="">Club name</option>
+                                    <option value="">Subject</option>
                                 </select>
 
                                 <div>

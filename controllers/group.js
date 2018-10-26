@@ -74,7 +74,7 @@ module.exports = function(Users, async, Message, FriendResult, Group) {
 					const result3 = results[2];
 
 					res.render('groupchat/group', {
-						title: 'Footballkik - Group',
+						title: 'Sader - Group',
 						user: req.user,
 						groupName: name,
 						data: result1,

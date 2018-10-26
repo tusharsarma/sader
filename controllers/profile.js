@@ -71,7 +71,7 @@ module.exports = function(async, Users, Message, formidable, FriendResult) {
 					const result2 = results[1];
 
 					res.render('user/profile', {
-						title: 'Footballkik - Profile',
+						title: 'Sader - Profile',
 						user: req.user,
 						data: result1,
 						chat: result2,

@@ -104,7 +104,7 @@ module.exports = function(async, Users, Message, FriendResult) {
 					const nameParams = params[0];
 
 					res.render('private/privatechat', {
-						title: 'Footballkik - Private Chat',
+						title: 'Sader - Private Chat',
 						user: req.user,
 						data: result1,
 						chat: result2,

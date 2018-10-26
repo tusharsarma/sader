@@ -7,14 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Footballkik</title>
+    <title>Sader</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-
+        <!-- <link rel="manifest" href="./../../manifest.json"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/profile.css">
+    <!-- <script>
+        if (navigator.serviceWorker.controller) {
+      console.log('[PWA Builder] active service worker found, no need to register')
+    } else {
+      //Register the ServiceWorker
+      navigator.serviceWorker.register('./../../pwabuilder-sw.js', {
+        scope: './'
+      }).then(function(reg) {
+        console.log('Service worker has been registered for scope:'+ reg.scope);
+      });
+    }
+    </script> -->
 
 </head>
 
@@ -87,7 +99,7 @@
                             <div>
                                 <div class="user-display">
                                     
-                                    <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite Clubs</h3>
+                                    <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite Subject</h3>
                                     <hr />
                                     <% _.forEach(user.favClub, function(val){ %>
                                         <p style="margin-bottom: 30px; color:#4aa1f3;">
@@ -111,7 +123,7 @@
                                 <div style="margin-top:20px">
                                     <div class="user-display">
                                 
-                                        <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite Players</h3>
+                                        <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite</h3>
                                         <hr />
                                         <% _.forEach(user.favPlayer, function(val){ %>
                                             <p style="margin-bottom: 30px; color:#4aa1f3;">
@@ -135,7 +147,7 @@
                                 <div style="margin-top:20px">
                                     <div class="user-display">
                                 
-                                        <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite National Team</h3>
+                                        <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite S</h3>
                                         <hr />
                                         <% _.forEach(user.favNationalTeam, function(val){ %>
                                             <p style="margin-bottom: 30px; color:#4aa1f3;">

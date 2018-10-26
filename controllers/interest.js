@@ -67,7 +67,7 @@ module.exports = function(async, Users, Message, FriendResult) {
 					const result2 = results[1];
 
 					res.render('user/interest', {
-						title: 'Footballkik - Interest',
+						title: 'Sader - Interest',
 						user: req.user,
 						data: result1,
 						chat: result2,

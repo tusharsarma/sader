@@ -31,7 +31,7 @@ module.exports = function(async, Club, Users) {
 					}
 
 					res.render('results', {
-						title: 'Footballkik - Results',
+						title: 'Sader - Results',
 						user: req.user,
 						chunks: dataChunk,
 					});
@@ -56,7 +56,7 @@ module.exports = function(async, Club, Users) {
 					}
 
 					res.render('members', {
-						title: 'Footballkik - Members',
+						title: 'Sader - Members',
 						user: req.user,
 						chunks: dataChunk,
 					});
@@ -85,7 +85,7 @@ module.exports = function(async, Club, Users) {
 					}
 
 					res.render('members', {
-						title: 'Footballkik - Members',
+						title: 'Sader - Members',
 						user: req.user,
 						chunks: dataChunk,
 					});
