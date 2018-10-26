@@ -16,7 +16,7 @@ module.exports = function(_, passport, User) {
 			const errors = req.flash('error');
 
 			return res.render('index', {
-				title: 'Footballkik | Login',
+				title: 'Sader | Login',
 				messages: errors,
 				hasErrors: errors.length > 0,
 			});
@@ -30,7 +30,7 @@ module.exports = function(_, passport, User) {
 			const errors = req.flash('error');
 
 			return res.render('signup', {
-				title: 'Footballkik | Signup',
+				title: 'Sader | Signup',
 				messages: errors,
 				hasErrors: errors.length > 0,
 			});

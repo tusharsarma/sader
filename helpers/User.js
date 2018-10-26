@@ -3,13 +3,14 @@ module.exports = function(_) {
 		signupValidation: (req, res, next) => {
 			req.checkBody('username', 'Username is Required').notEmpty();
 			req
-				.checkBody('username', 'Username Must Not Be Less Than 5')
-				.isLength({ min: 5 });
+				.checkBody('username', 'Username is not valid')
+				.isLength({ min: 7 });
+
 			req.checkBody('email', 'Email is Required').notEmpty();
 			req.checkBody('email', 'Email is Invalid').isEmail();
 			req.checkBody('password', 'Password is Required').notEmpty();
 			req
-				.checkBody('password', 'Email Must Not Be Less Than 5')
+				.checkBody('password', 'Epassword Must Not Be Less Than 5')
 				.isLength({ min: 5 });
 
 			req
@@ -24,11 +25,11 @@ module.exports = function(_) {
 				});
 		},
 		loginValidation: (req, res, next) => {
-			req.checkBody('email', 'Email is Required').notEmpty();
-			req.checkBody('email', 'Email is Invalid').isEmail();
+			req.checkBody('username', 'Username is Required').notEmpty();
+			//req.checkBody('username', 'Username is Invalid').isEmail();
 			req.checkBody('password', 'Password is Required').notEmpty();
 			req
-				.checkBody('password', 'Email Must Not Be Less Than 5')
+				.checkBody('password', 'Password Must Not Be Less Than 5')
 				.isLength({ min: 5 });
 
 			req

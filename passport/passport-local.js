@@ -16,19 +16,19 @@ passport.use(
 	'local.signup',
 	new LocalStrategy(
 		{
-			usernameField: 'email',
+			usernameField: 'username',
 			passwordField: 'password',
 			passReqToCallback: true,
 		},
-		async (req, email, password, done) => {
+		async (req, username, password, done) => {
 			try {
-				const findUser = await User.findOne({ email });
+				const findUser = await User.findOne({ username });
 
 				if (findUser) {
 					return done(
 						null,
 						false,
-						req.flash('error', 'User with email already exist'),
+						req.flash('error', 'User with this scholar ID exist'),
 					);
 				}
 
@@ -52,13 +52,13 @@ passport.use(
 	'local.login',
 	new LocalStrategy(
 		{
-			usernameField: 'email',
+			usernameField: 'username',
 			passwordField: 'password',
 			passReqToCallback: true,
 		},
-		async (req, email, password, done) => {
+		async (req, username, password, done) => {
 			try {
-				const user = await User.findOne({ email });
+				const user = await User.findOne({ username });
 
 				const messages = [];
 
