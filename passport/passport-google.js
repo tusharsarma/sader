@@ -18,7 +18,7 @@ passport.use(
 		{
 			clientID: secret.google.clientID,
 			clientSecret: secret.google.clientSecret,
-			callbackURL: `http://localhost:3000/auth/google/callback`,
+			callbackURL: `https://sader123.herokuapp.com/auth/google/callback`,
 			passReqToCallback: true,
 		},
 		async (req, accessToken, refreshToken, profile, done) => {
