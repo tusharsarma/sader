@@ -1,0 +1,67 @@
+
+<% include ./partials/headerr %>
+<div class="ui main text container segment">
+    <div class="ui huge header"><%= blog.title %></div>
+    <div class="ui top attached ">
+        <div class="item">
+            <img class="ui centered rounded image" src="<%= blog.image %>" >
+            <div class="content">
+                <span><%= blog.created.toDateString() %></span>
+            </div>
+            <div class="description">
+                <p><%- blog.body %></p>
+            </div>
+            <a class="ui orange basic button" href="/blogs/<%= blog._id %>/edit">Edit</a>
+            <form id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+                <button class="ui red basic button">Delete</button>
+            </form>
+            <button id="speak"  onclick="setMsg('<%= blog.body %>')" class="ui black basic button">
+                <i class="icon play"></i> Listen
+            </button>
+        </div>
+    </div>
+    
+</div>
+
+<script>
+    
+  const msg = new SpeechSynthesisUtterance();
+  let voices = [];
+  const voicesDropdown = document.querySelector('[name="voice"]');
+  const options = document.querySelectorAll('[type="range"], [name="text"]');
+  //const speakButton = document.querySelector('#speak');
+  //const stopButton = document.querySelector('#stop');
+  //msg.text = document.getElementById("speak").text();
+  function populateVoices() {
+      
+    voices = this.getVoices();
+    voicesDropdown.innerHTML = voices
+      .filter(voice => voice.lang.includes('en'))
+      .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
+      .join('');
+  }
+  function setVoice() {
+    msg.voice = voices.find(voice => voice.name === this.value);
+    toggle();
+  }
+    function setMsg(strt) {
+       msg.text=strt;
+       toggle();
+  }
+  function toggle(startOver = true) {
+    
+    speechSynthesis.cancel();
+    if (startOver) {
+      speechSynthesis.speak(msg);
+    }
+  }
+
+ 
+    
+    
+</script>
+
+
+
+<% include ./partials/footer %>
+

@@ -13,6 +13,7 @@ const simpleDependencies = [
 	{ name: 'Message', module: './models/message' },
 	{ name: 'aws', module: './helpers/AWSUpload' },
 	{ name: 'Group', module: './models/groupmessage' },
+	{ name: 'Blog', module: './models/blog' },
 ];
 
 // load module
