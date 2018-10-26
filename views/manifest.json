@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "de",
+    "name": "Sader",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://sader123.herokuapp.com/",
+    "short_name": "Sader",
+    "theme_color": "transparent",
+    "description": "A app to connect college.",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/334223f3-4d64-82c2-11ff-cb584ceca336.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8da261ac-a166-5698-29d6-7cbcc9f73b68.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0823f4cc-26cc-6651-0a01-23ee70fc081c.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b8078290-dd50-b602-5211-dc479e5d0e28.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b851e2a7-5522-1442-a038-0daa52986b2f.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/426a378b-8d34-8eec-7197-a1f2c8d0c5d8.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/285f4e3c-b1a7-ca14-43c5-e362d1f5babb.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0b41a17b-f265-f60d-8d92-f00360e2c6fb.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c9b14eab-83e4-cfbf-c3b4-eeae1d6c8b48.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0fdc28ce-fc21-07f0-b94a-25a21e16c955.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ed56ca6d-678c-d4dd-0960-9cab54cbb06b.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/96b4f188-7a58-dae4-54a3-3f335faeb549.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4ea0c903-560d-2fb8-08ec-d349a92a12c4.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/20fa7d16-928d-80e7-3f54-51864154e182.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5e712ce2-63cd-f4a8-cc44-7e1e56cdf732.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6cef82f2-c345-4f2c-9df7-2a00fe3766b8.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d327de6b-b76e-81df-0820-a15d6d69f561.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/29a88a2d-1992-212d-1bd2-5ab44d8a66d4.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d56e69f8-92ec-e234-7fa7-424472212c08.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
