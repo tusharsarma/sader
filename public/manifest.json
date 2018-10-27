@@ -2,7 +2,7 @@
     "dir": "ltr",
     "lang": "de",
     "name": "Sader",
-    "scope": "/",
+    "scope": "../",
     "display": "standalone",
     "start_url": "https://sader123.herokuapp.com/",
     "short_name": "Sader",
@@ -14,97 +14,97 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "/images/61e2338c-7490-f1eb-6a2f-c25cf39d0fe5.webPlatform.png",
+            "src": "/Images/61e2338c-7490-f1eb-6a2f-c25cf39d0fe5.webPlatform.png",
             "sizes": "44x44",
             "type": "image/png"
         },
         {
-            "src": "/images/9dd9a448-44c8-2cac-cc4a-a0bf9d18db69.webPlatform.png",
+            "src": "/Images/9dd9a448-44c8-2cac-cc4a-a0bf9d18db69.webPlatform.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "/images/0a065b94-250d-cb5b-a755-5905ed5fc3fe.webPlatform.png",
+            "src": "/Images/0a065b94-250d-cb5b-a755-5905ed5fc3fe.webPlatform.png",
             "sizes": "1240x600",
             "type": "image/png"
         },
         {
-            "src": "/images/339ddfb8-c226-0972-39ab-adb6690522ea.webPlatform.png",
+            "src": "/Images/339ddfb8-c226-0972-39ab-adb6690522ea.webPlatform.png",
             "sizes": "300x300",
             "type": "image/png"
         },
         {
-            "src": "/images/e0eb6407-104c-10e1-a831-a47ea5e900cf.webPlatform.png",
+            "src": "/Images/e0eb6407-104c-10e1-a831-a47ea5e900cf.webPlatform.png",
             "sizes": "150x150",
             "type": "image/png"
         },
         {
-            "src": "/images/912b4fab-c391-ac53-d17c-36f724cd3a1f.webPlatform.png",
+            "src": "/Images/912b4fab-c391-ac53-d17c-36f724cd3a1f.webPlatform.png",
             "sizes": "88x88",
             "type": "image/png"
         },
         {
-            "src": "/images/209d74ca-bedf-b683-514d-6b9c8d643545.webPlatform.png",
+            "src": "/Images/209d74ca-bedf-b683-514d-6b9c8d643545.webPlatform.png",
             "sizes": "24x24",
             "type": "image/png"
         },
         {
-            "src": "/images/aef362bc-f633-6e53-1916-2fa1579486d5.webPlatform.png",
+            "src": "/Images/aef362bc-f633-6e53-1916-2fa1579486d5.webPlatform.png",
             "sizes": "50x50",
             "type": "image/png"
         },
         {
-            "src": "/images/d55b2b03-44fc-9161-4abe-8cdd258718f7.webPlatform.png",
+            "src": "/Images/d55b2b03-44fc-9161-4abe-8cdd258718f7.webPlatform.png",
             "sizes": "620x300",
             "type": "image/png"
         },
         {
-            "src": "/images/99f189ee-a9cd-f249-9bf8-a22e5adfffdb.webPlatform.png",
+            "src": "/Images/99f189ee-a9cd-f249-9bf8-a22e5adfffdb.webPlatform.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/images/a658d518-ea20-784b-ec9c-b6d94183eb88.webPlatform.png",
+            "src": "/Images/a658d518-ea20-784b-ec9c-b6d94183eb88.webPlatform.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "/images/5c2ef3c8-7bb5-17dd-2966-29bfec8acb91.webPlatform.png",
+            "src": "/Images/5c2ef3c8-7bb5-17dd-2966-29bfec8acb91.webPlatform.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "/images/352ffaf0-213d-fe77-feae-ea7b9e4f7c2b.webPlatform.png",
+            "src": "/Images/352ffaf0-213d-fe77-feae-ea7b9e4f7c2b.webPlatform.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "/images/d02060a4-7c3d-91d7-60d5-41e92301d172.webPlatform.png",
+            "src": "/Images/d02060a4-7c3d-91d7-60d5-41e92301d172.webPlatform.png",
             "sizes": "36x36",
             "type": "image/png"
         },
         {
-            "src": "/images/14b544ca-b6f5-9fc5-f2de-03c0a20d7c0d.webPlatform.png",
+            "src": "/Images/14b544ca-b6f5-9fc5-f2de-03c0a20d7c0d.webPlatform.png",
             "sizes": "1024x1024",
             "type": "image/png"
         },
         {
-            "src": "/images/498468ac-026c-6494-8e45-b807113e166d.webPlatform.png",
+            "src": "/Images/498468ac-026c-6494-8e45-b807113e166d.webPlatform.png",
             "sizes": "180x180",
             "type": "image/png"
         },
         {
-            "src": "/images/ac3205ab-f605-efa1-2663-0cf0d987ffb2.webPlatform.png",
+            "src": "/Images/ac3205ab-f605-efa1-2663-0cf0d987ffb2.webPlatform.png",
             "sizes": "152x152",
             "type": "image/png"
         },
         {
-            "src": "/images/239803cf-6c16-f92f-d58a-83be1231714b.webPlatform.png",
+            "src": "/Images/239803cf-6c16-f92f-d58a-83be1231714b.webPlatform.png",
             "sizes": "120x120",
             "type": "image/png"
         },
         {
-            "src": "/images/586a6ee0-8792-5084-948a-d26801b5545a.webPlatform.png",
+            "src": "/Images/586a6ee0-8792-5084-948a-d26801b5545a.webPlatform.png",
             "sizes": "76x76",
             "type": "image/png"
         }
