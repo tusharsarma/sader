@@ -4,54 +4,51 @@
 importScripts('/cache-polyfill.js');
 
 
-self.addEventListener('install', function(e) {
- e.waitUntil(
-   caches.open('airhorner').then(function(cache) {
-     return cache.addAll([
-       '/',
-       '/views/home.ejs',
-       '/views/index.ejs',
-       '/views/indexx.ejs',
-       '/views/signup.ejs',
-       '/views/results.ejs',
-       '/public/css/login.css',
-       '/public/css/style.css',
-       '/public/css/profile.css',
-       '/public/js/home.js',
-       '/public/js/global.js',
-       '/public/js/deparam.js',
-       '/public/scripts/app.js',
-
-       '/views/show.ejs',
-       '/views/results.ejs',
-       '/views/new.ejs',
-       '/views/members.ejs',
-       '/views/edit.ejs',
-       '/views/user/interest.ejs',
-       '/views/user/overview.ejs',
-       '/views/user/profile.ejs',
-       '/views/private/privatechat.ejs',
-       '/views/partials/navbar.ejs',
-       '/views/partials/message.ejs',
-       '/views/partials/headerr.ejs',
-       '/views/partials/footer.ejs',
-       '/views/partials/blogs.ejs',
-       '/views/groupchats/group.ejs',
-       '/views/admin/dashboard.ejs',
-       '/public/css/news.css',
-       '/public/css/group.css',
-
-
-
-
-
-     ]);
-   })
- );
-});
-
 self.addEventListener('install', function(event) {
   var indexPage = new Request('index.html');
+  event.waitUntil(
+    caches.open('airhorner').then(function(cache) {
+      return cache.addAll([
+        '/',
+        '/views/home.ejs',
+        '/views/index.ejs',
+        '/views/indexx.ejs',
+        '/views/signup.ejs',
+        '/views/results.ejs',
+        '/public/css/login.css',
+        '/public/css/style.css',
+        '/public/css/profile.css',
+        '/public/js/home.js',
+        '/public/js/global.js',
+        '/public/js/deparam.js',
+        '/public/scripts/app.js',
+ 
+        '/views/show.ejs',
+        '/views/results.ejs',
+        '/views/new.ejs',
+        '/views/members.ejs',
+        '/views/edit.ejs',
+        '/views/user/interest.ejs',
+        '/views/user/overview.ejs',
+        '/views/user/profile.ejs',
+        '/views/private/privatechat.ejs',
+        '/views/partials/navbar.ejs',
+        '/views/partials/message.ejs',
+        '/views/partials/headerr.ejs',
+        '/views/partials/footer.ejs',
+        '/views/partials/blogs.ejs',
+        '/views/groupchats/group.ejs',
+        '/views/admin/dashboard.ejs',
+        '/public/css/news.css',
+        '/public/css/group.css',
+ 
+ 
+ 
+ 
+ 
+      ]);
+    })
+  );
   event.waitUntil(
     fetch(indexPage).then(function(response) {
       return caches.open('pwabuilder-offline').then(function(cache) {
