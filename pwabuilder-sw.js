@@ -18,6 +18,32 @@ self.addEventListener('install', function(e) {
        '/public/css/style.css',
        '/public/css/profile.css',
        '/public/js/home.js',
+       '/public/js/global.js',
+       '/public/js/deparam.js',
+       '/public/scripts/app.js',
+
+       '/views/show.ejs',
+       '/views/results.ejs',
+       '/views/new.ejs',
+       '/views/members.ejs',
+       '/views/edit.ejs',
+       '/views/user/interest.ejs',
+       '/views/user/overview.ejs',
+       '/views/user/profile.ejs',
+       '/views/private/privatechat.ejs',
+       '/views/partials/navbar.ejs',
+       '/views/partials/message.ejs',
+       '/views/partials/headerr.ejs',
+       '/views/partials/footer.ejs',
+       '/views/partials/blogs.ejs',
+       '/views/groupchats/group.ejs',
+       '/views/admin/dashboard.ejs',
+       '/public/css/news.css',
+       '/public/css/group.css',
+
+
+
+
 
      ]);
    })
