@@ -6,10 +6,10 @@
     "display": "standalone",
     "start_url": "https://sader123.herokuapp.com/",
     "short_name": "Sader",
-    "theme_color": "transparent",
+    "theme_color": "#5bc0de",
     "description": "A app to connect college.",
     "orientation": "any",
-    "background_color": "transparent",
+    "background_color": "#5bc0de",
     "related_applications": [],
     "prefer_related_applications": false,
     "icons": [
