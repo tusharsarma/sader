@@ -13,7 +13,7 @@ module.exports = function(formidable, Club, aws) {
 			router.post('/dashboard', this.adminPostPage);
 		},
 		adminPage: function(req, res) {
-			res.render('admin/dashboard');
+			res.render('admin/dashboard', {user: req.user });
 		},
 		 
         adminPostPage: function(req, res){
@@ -24,7 +24,7 @@ module.exports = function(formidable, Club, aws) {
 			newClub.image = req.body.upload;
 			
             newClub.save((err) => {
-                res.render('admin/dashboard');
+                res.render('admin/dashboard', {user: req.user });
             })
         },
 		// adminPostPage: async function(req, res) {
